@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { fetchFromApi } from '../api/tmdb';
-import { type Movie, type PaginatedResponse } from '../types/tmdb'; // Use type-only import
+import { type Movie, type PaginatedResponse } from '../types/tmdb.d'; // Use type-only import
 import MovieCard from '../components/MovieCard';
 
 const SearchResults: React.FC = () => {
