@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { fetchFromApi } from '../api/tmdb';
-import { type Movie, type PaginatedResponse } from '../types/tmdb'; // Use type-only import
+import { type Movie, type PaginatedResponse } from '../types/tmdb.d'; // Use type-only import
 import MovieCard from '../components/MovieCard';
 
 const Home: React.FC = () => {
