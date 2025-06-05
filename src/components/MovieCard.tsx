@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { type Movie } from '../types/tmdb';
+import { type Movie } from '../types/tmdb.d';
 
 interface MovieCardProps {
   movie: Movie;
